@@ -1,6 +1,6 @@
-import { SContainer } from "./style/SContainer";
-import { SP } from "./style/SP";
-import { SDl } from "./style/SDl";
+import { SContainer } from "../components/style/SContainer";
+import { SP } from "../components/style/SP";
+import { SDl } from "../components/style/SDl";
 
 export const Profile = () => {
   return (
@@ -20,9 +20,13 @@ export const Profile = () => {
           <dd>
             大学では最適化のための数理を学んでいます。今後はこのまま最適化を専攻する予定です。この分野に限らず、機械学習の基礎なども学んでおり大規模言語モデルに興味があります。
           </dd>
+          <dt>これまで</dt>
+          <dd>
+            ここまでの大学生活では学園祭に力を入れていました。グループワークが好きです。
+          </dd>
           <dt>興味</dt>
           <dd>
-            デザイン系のものに興味があり、自分の活動の幅を広げるために最近(2024.9.9)reactの勉強を始めました。
+            最近はデザインに興味があります。自分の活動の幅を広げるために最近(2024.9.9)reactの勉強を始めました。
           </dd>
         </SDl>
       </SContainer>

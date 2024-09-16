@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import { SP } from "./style/SP";
-import { WorkCard } from "./WorkCard";
+import { WorkCard } from "../components/WorkCard";
 import narrowescape from "../assets/narrowescape.png";
 import jphacks from "../assets/jphacks.png";
 import kasou from "../assets/kasou.png";

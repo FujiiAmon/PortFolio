@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import { SP } from "./style/SP";
-import { ToolCard } from "./ToolCard";
+import { ToolCard } from "../components/ToolCard";
 
 export const Tools = () => {
   return (
